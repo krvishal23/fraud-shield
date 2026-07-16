@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sentinel Fraud Detection Console</title>
+  <title>financial Fraud Detection Console</title>
   <style>
     :root { --bg:#09111f; --panel:#101c2e; --panel2:#14233a; --line:#253852; --text:#e9f0fb; --muted:#93a5be; --cyan:#4dd6c5; --amber:#f6bd4a; --red:#fa6b75; --green:#57d18c; }
     *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:14px Inter,ui-sans-serif,system-ui,sans-serif}
@@ -14,7 +14,7 @@
   </style>
 </head>
 <body>
-  <header><div><div class="brand">SENTINEL<i>·AI</i></div><div class="sub">Financial fraud detection console</div></div><div class="small">Model: hybrid-risk-v1 · <span style="color:var(--green)">● Monitoring</span></div></header>
+  <header><div><div class="brand">FRAUD<i>.SHIELD</i></div><div class="sub">Financial fraud detection console</div></div><div class="small">Model: hybrid-risk-v1 · <span style="color:var(--green)">● Monitoring</span></div></header>
   <main>
     <section class="hero"><div><h1>Transaction monitoring</h1><p>Prioritize suspicious activity with explainable, analyst-ready risk scores.</p></div><div class="controls"><button class="secondary" onclick="exportQueue()">Export queue</button><button onclick="generateTransactions()">Simulate new activity</button></div></section>
     <section class="metrics"><div class="metric"><span>Transactions screened</span><strong id="screened">0</strong></div><div class="metric"><span>High-risk alerts</span><strong class="alert" id="alerts">0</strong></div><div class="metric"><span>Alert rate</span><strong id="rate">0%</strong></div><div class="metric"><span>Estimated exposure</span><strong id="exposure">$0</strong></div></section>
